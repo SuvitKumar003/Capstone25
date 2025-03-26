@@ -1,16 +1,33 @@
+/* src/app/market-alerts/market-alerts.component.css */
 .market-alerts {
-  background-color: #eaeaea; /* Light beige */
+  background-color: greenyellow; /* Light beige */
   text-align: center;
   padding: 20px;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.market-alerts h1 {
+.bell-icon-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.content {
+  text-align: left;
+}
+
+.content h1 {
   font-size: 48px;
   margin-bottom: 10px;
 }
 
-.market-alerts p {
+.content p {
   font-size: 24px;
+  color:darkgreen;
+  text-align: center;
+  
+
 }
