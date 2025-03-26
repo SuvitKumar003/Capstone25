@@ -1,0 +1,26 @@
+.predictions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #eaeaea; /* Light beige */
+}
+
+.image-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 24px;
+}

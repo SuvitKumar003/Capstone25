@@ -1,0 +1,131 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a242f; /* Dark green background */
+}
+
+.container {
+  padding: 20px;
+  color: white;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0d211b; /* Darker green */
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Market Alerts Section */
+.market-alerts {
+  background-color: #eaeaea; /* Light beige */
+  text-align: center;
+  padding: 20px;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.market-alerts h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.market-alerts p {
+  font-size: 24px;
+}
+
+/* News Headlines Section */
+.news-headlines {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #eaeaea; /* Light beige */
+}
+
+.image-container img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 24px;
+}
+
+/* Predictions Section */
+.predictions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #eaeaea; /* Light beige */
+}
+
+.image-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 24px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a242f; /* Dark green */
+  color: white;
+}
